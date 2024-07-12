@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maltiply Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="heart-row box"><h1 class="heart"></h1></div>
+            <div class="row1 box"><h1>Score: <span class="score"></span></h1></div>
+            <div class="row2 box"><h1>What is <span class="first-value"></span> multiply by <span class="second-value"></span>?</h1></div>
+            <div class="middle">
+                <div class="row3 box"><input type="number" placeholder="Enter the Answer"></div>
+            <div class="row4 box"><p class="reaction"></p></div>
+            </div>
+            <div class="row5 box"><button class="btn" onclick=check() >Submit</button></div>
+        </div>
+        <div class="container2">
+            <h1>Game Over</h1>
+            <button class="start" onclick=startAgain()>Start Again</button>
+        </div>
+    </div>
+</body>
+</html>
